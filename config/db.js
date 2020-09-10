@@ -16,9 +16,10 @@ const db = config.get('mongoURI');
 const connectDb = async()=>{
     try {
         await mongoose.connect(db,{
-            useNewUrlParser:true
+            useNewUrlParser:true,
+            useCreateIndex:true
         });
-        console.log("Mongo db Fucked Brutually");
+        // console.log("Mongo db Fucked Brutally");
     } catch (error) {
         console.log(error.message);
         process.exit(1);

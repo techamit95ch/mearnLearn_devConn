@@ -1,4 +1,6 @@
 {
 
-    "mongoURI": "mongodb+srv://amit:32QtckHsBjcrxm9@mearnfreeproj0.5nmil.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://amit:32QtckHsBjcrxm9@mearnfreeproj0.5nmil.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret" : "mysecrettoken"
+
 }
