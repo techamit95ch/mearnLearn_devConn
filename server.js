@@ -20,5 +20,5 @@ app.use('/api/posts',require('./routes/api/posts'));
 app.get('/',(req,res)=>res.send(''));
 
 app.listen(PORT,()=>{ 
-    // console.log('bal')
+    
 });
